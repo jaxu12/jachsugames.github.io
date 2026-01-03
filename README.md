@@ -1,1 +1,75 @@
-# jachsugames.github.io
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jachsu Games - Strona Oficjalna</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a; /* Ciemne tło */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify_content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 600px;
+        }
+        h1 {
+            color: #4CAF50; /* Zielony kolor akcentowy */
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+        a { color: #4CAF50; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Jachsu Games</h1>
+        
+        <p>
+            Witaj na oficjalnej stronie studia. Tworzymy gry mobilne z pasją.
+            Pobierz nasze produkcje w Google Play!
+        </p>
+
+        <a href="https://sites.google.com/view/polyrush-privacypolicy/starona-g%C5%82%C3%B3wna" class="btn">Polityka Prywatności</a>
+        
+        <div class="footer">
+            <p>Kontakt: contact.jachsugames@gmail.com</p>
+            <p>&copy; 2026 Jachsu Games. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </div>
+
+</body>
+</html>
